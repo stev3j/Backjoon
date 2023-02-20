@@ -14,7 +14,7 @@ ans = 0
 for i in range(m):
     for j in range(n):
         if tomatos[i][j] == 1:
-            que.append([i, j])
+            que.append([i, j]) # 1인 좌표를 저장
 
 while que:
     x, y = que.popleft()
