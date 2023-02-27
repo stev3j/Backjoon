@@ -1,5 +1,10 @@
-n=lambda:['black','brown','red','orange','yellow','green','blue','violet','grey','white'].index(input()) 
-print((n()*10+n())*pow(10,n()))
+x=['black', 'brown', 'red', 
+'orange', 'yellow', 'green', 'blue', 'violet', 'grey', 'white']
+
+a=x.index(input())
+b=x.index(input())
+c=x.index(input())
+print(((a*10)+b)*(10**c))
 
 # one = input()
 # two = input()
